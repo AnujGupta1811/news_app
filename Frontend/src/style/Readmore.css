@@ -1,0 +1,87 @@
+.full-article {
+  background-color: #f4f4f4; /* Background color for the article page */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.full-article h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.full-article h1.title {
+  font-size: 1.5rem;
+  color: darkgray;
+  margin-top: 0;
+  text-align: center;
+}
+
+.full-article img {
+  max-width:500px; /* Make the image responsive */
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.full-article h4 {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.readmore {
+  background-color: #007BFF; /* Button background color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.readmore:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.full-article button {
+  cursor: pointer;
+}
+
+.full-article a {
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .full-article {
+    padding: 10px;
+  }
+
+  .full-article img {
+    max-width: 80%; /* Adjust image width for smaller screens */
+    height: auto;
+  }
+
+  .full-article h1 {
+    font-size: 1.5rem;
+  }
+
+  .full-article p {
+    font-size: 0.9rem;
+  }
+
+  .readmore {
+    font-size: 0.9rem;
+  }
+}
